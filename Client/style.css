@@ -1,0 +1,381 @@
+/* Reset */
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Global Styles */
+body {
+    background: url('./image/store_home_share.jpg') center/cover no-repeat;
+    font-family: Arial, sans-serif;
+    color: #ffffff;
+    margin: 0;
+    padding-top: 60px;
+}
+
+/* Main Content */
+#main {
+    width: 100vw;
+    height: 100vh;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#games {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 230vh;
+}
+
+.image {
+    height: 250px;
+    width: 250px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s, filter 0.3s;
+    margin: 10px;
+    image-rendering: optimizeQuality;
+}
+
+.image:hover {
+    transform: scale(1.05);
+}
+
+/* Navigation */
+nav {
+    height: 45px;
+    width: 100vw;
+    background-color: #171d25;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    margin-right: 10px;
+    margin-bottom: -2px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #e7e7e7;
+    padding: 0 20px;
+    justify-content: center;
+    transition: color 0.3s, transform 0.3s;
+}
+
+nav ul li a:hover {
+    color: lightslategrey;
+    transform: scale(1.5);
+}
+
+#myemail {
+    color: #ccc;
+    margin-right: 15px;
+    margin-left: -15px;
+}
+
+.logo img {
+    height: 140px;
+    width: 150px;
+    margin: 0 20px;
+}
+
+/* Search */
+.search {
+    margin-top: 40px;
+    padding: 10px;
+    display: flex;
+    margin-bottom: 50px;
+    align-items: center;
+    justify-content: center;
+}
+
+.search span a {
+    margin-left: 3%;
+    color: #e7e7e7;
+    text-decoration: none;
+    transition: color 0.3s, transform 0.3s;
+    padding: 0 15px;
+}
+
+.search span a:hover {
+    color: lightslategray;
+    transform: scale(1.5);
+}
+
+#search-box {
+    height: 40px;
+    width: 450px;
+    border: none;
+    border-radius: 20px;
+    background: #171d25;
+    padding: 5px 10px;
+    color: #ffffff;
+    transition: background-color 0.3s, color 0.3s, transform 0.3s;
+}
+
+#search-box:hover {
+    background-color: #2a2a2a;
+    color: white;
+    transform: scale(1.05);
+}
+
+/* Typography */
+.my_h2 {
+    color: whitesmoke;
+    font-size: 17px;
+    margin-bottom: 20px;
+    text-align: center;
+    text-overflow: ellipsis;
+}
+
+/* Miscellaneous */
+.my-div-js a {
+    text-decoration: none;
+}
+
+footer {
+    text-align: center;
+    background-color: #171d25;
+    padding: 10px 0;
+    color: #e7e7e7;
+}
+
+.heart {
+    color: red;
+}
+
+/* Form Styling */
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('./image/download.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+/* Form container */
+.signup {
+    width: 300px;
+    margin: 6.5% auto 0;
+    padding: 20px;
+    box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.3);
+    background-color: white;
+    border-radius: 15px;
+    text-align: center;
+}
+
+/* Form header */
+.signup h1 {
+    color: #3498db;
+    margin-bottom: 30px;
+}
+
+/* Form input */
+.inputBox {
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #999;
+    border-radius: 15px;
+    outline: none;
+}
+
+/* Form buttons */
+.button, .GoogleBtn {
+    width: 100%;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.button {
+    background-color: #3498db;
+}
+
+.GoogleBtn {
+    background-color: #dd4b39;
+}
+
+.button:hover, .GoogleBtn:hover {
+    background-color: #2980b9;
+}
+
+.button:active, .GoogleBtn:active {
+    background-color: #1f618d;
+}
+
+.SignUpBtn {
+    
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+
+  }
+  
+
+  .SignUpBtn:hover {
+    background-color: #2980b9;
+  }
+  
+
+  .SignUpBtn:active {
+    background-color: #1f618d;
+  }
+
+/* Links and separators */
+a {
+    text-decoration: none;
+    color: #3498db;
+}
+
+hr {
+    margin-top: 20px;
+    width: 80%;
+    border: none;
+    border-top: 1px solid #ccc;
+}
+
+.or {
+    background: #fff;
+    width: 30px;
+    margin: -19px auto 10px;
+}
+
+/* Google icon */
+.fa-google {
+    margin: 0 5px;
+}
+
+-----------------------login----------------------
+
+body
+{
+    margin: 0;padding: 0;
+    font-family: sans-serif;
+}
+.login
+{
+width: 300px;
+box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.3);
+padding: 20px;
+ margin: 10.5% auto 0 ;
+background-color: #ffffff;
+border-radius: 15px;
+text-align: center;
+}
+.login h1
+{
+color: #3498db;
+margin-bottom: 30px;
+}
+.inputBox
+{
+    border-radius: 15px;
+    padding: 10px;
+    margin: 10px 0;
+    width: 100%;
+    border: 1px solid #999;
+    outline: none;
+} 
+
+
+.LoginBtn {
+    
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+
+  }
+  
+
+  .LoginBtn:hover {
+    background-color: #2980b9;
+  }
+  
+
+  .LoginBtn:active {
+    background-color: #1f618d;
+  }
+.GoogleBtn
+{
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 15px;
+
+}
+ 
+
+.GoogleBtn:hover {
+    background-color: #2980b9;
+  }
+  
+
+  .GoogleBtn:active {
+    background-color: #1f618d;
+  }
+a
+{
+    text-decoration: none;
+}
+hr
+{
+    margin-top: 20px;
+    width: 80%;
+}
+.or
+{
+    background: #fff;
+    width: 30px;
+    margin: -19px auto 10px;
+}
+.fa-google{
+    margin: 0 5px;
+}
+
+.account-text {
+    margin-top: 10px;
+    color: #555; 
+    margin-bottom: 10px;
+}
+
+
+#abcd {
+    margin-right: 5px;
+}
